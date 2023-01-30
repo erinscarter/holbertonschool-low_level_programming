@@ -12,7 +12,7 @@ int main(void)
 	if (num > 0)
 		printf("%d is positive\n", num);
 	else if (num == 0)
-		primtf("%d is zero\n", num);
+		printf("%d is zero\n", num);
 	else 
 		printf("%d is negative\n", num);
 
