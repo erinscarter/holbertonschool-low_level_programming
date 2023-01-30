@@ -1,6 +1,9 @@
 #include <stdio.h>
 #include <time.h>
 #include <stdlib.h>
+/*
+*main = entry point
+*/
 
 int main(void)
 {
