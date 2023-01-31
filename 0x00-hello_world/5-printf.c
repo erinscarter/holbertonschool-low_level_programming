@@ -1,7 +1,6 @@
 #include <stdio.h>
-/*
-*
-prints exactly
+/**
+*prints exactly
 */
 int main(void)
 
