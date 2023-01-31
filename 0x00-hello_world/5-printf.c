@@ -1,6 +1,7 @@
 #include <stdio.h>
 /**
-*prints exactly
+*function Main - Entry point
+*Return SUccess always 0
 */
 int main(void)
 
