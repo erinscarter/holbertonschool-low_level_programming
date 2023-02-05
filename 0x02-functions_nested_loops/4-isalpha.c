@@ -1,5 +1,5 @@
 #include "main.h"
-#include "stdio.h"
+#include <stdio.h>
 /**
 * _isalpha - entry point
 * @c: integer value it receives
@@ -9,7 +9,7 @@
 
 int _isalpha(int c)
 {
-	if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= "Z'))
+	if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
 	{
 		return (1);
 	}
