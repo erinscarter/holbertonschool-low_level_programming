@@ -3,11 +3,12 @@
 /**
 * print_diagonal - prints diagonal line with a \n
 * @n: int given by main
+* 
 * Description: uses headers to link and a nested loop to execute
 * Return: void. No return.
 */
 
-void diagonal_line(int n)
+void print_diagonal(int n)
 {
 	int i, j;
 
