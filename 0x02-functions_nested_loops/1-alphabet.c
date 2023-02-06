@@ -2,7 +2,7 @@
 
 /***
 * print_alphabet - prints alphabet
-* Description: print alphabet -
+* Description: print alphabet
 * Return: Always 0
 */
 
