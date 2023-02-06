@@ -1,5 +1,5 @@
 #include "main.h"
-/*
+/**
 * print_line - prints underscores
 * @n: an int given by main
 *
