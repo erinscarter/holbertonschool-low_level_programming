@@ -1,22 +1,19 @@
 #include "main.h"
-
 /**
 * _strcpy - Entry point
-* @a: get string
-* @n: get number of elements
-* Return: array with , and space
+*
+* @dest: char to check
+* @src: char to check
+*
+* Return: 0 if success
 */
 
-char print_array(char *dest, char *src)
+char *_strcpy(char *dest, char *src)
 {
-	int A1HotSauce;
+	int a;
 
-	for (A1HotSauce = 0; src[A1HotSauce] != '\0'; A1HotSauce++)
-	{
-		dest[A1HotSauce] = src[A1HotSauce
-	}
-	dest[A1HotSauce] = src[A1HotSauce];
-
+	for (a = 0; src[a] != '\0'; a++)
+		dest[a] = src[a];
+	dest[a] = '\0';
 	return (dest);
-}]
-
+}
