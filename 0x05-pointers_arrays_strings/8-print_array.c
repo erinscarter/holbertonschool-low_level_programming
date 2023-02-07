@@ -1,27 +1,24 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
 * print_array - Entry point
-* @a: get string
-* @n: get number of elements
-* Return:
+*
+* @a: int to check
+* @n: int to check
+*
+* Return: 0 if success
 */
 
 void print_array(int *a, int n)
 {
-	int f1;
+	int x;
 
-	for (f1 = 0; f1 < n; f1++)
-	{
-		if (f1 == 0)
-	{
-		printf("%d", a[f1]);
-	}
-	else
-	{
-		printf(", %d", a[f1]);
-	}
-	
+	for (x = 0; x < n; x++)
+		if (x != n - 1)
+			printf("%d, ", a[x]);
+		else
+			printf("%d", a[x]);
 	printf("\n");
 }
 
