@@ -1,24 +1,30 @@
-#include <stdio.h>
 #include "main.h"
-
 /**
-* _strpbrk - Entry point
-* @s: input
-* @accept: input
-* Return: Always 0 (Success)
+* _strspn - get the lenght of prefix substring
+* @s:string
+* @accept:string
+* Return:unsigned int
 */
-char *_strpbrk(char *s, char *accept)
+unsigned int _strspn(char *s, char *accept)
 {
-	int i, n;
+unsigned int x;
+int i;
 
-	for (i = 0, s[i] != '\0'; i++)
-	{
-		for (n = 0; accept[n] != '\0'; n++)
+x = 0;
+		while (*s)
+{
+			for (i = 0; accept[i]; i++)
 		{
-			if (s[i] == accept[n])
-				return (s + i);
+			if (*s == accept[i])
+			{
+				x++;
+				break;
+			}												else if (accept[i + 1] == '\0')
+		{
+			return (x);
 		}
 	}
-
-	return (NULL);
+	s++;
+}
+return (x);
 }
