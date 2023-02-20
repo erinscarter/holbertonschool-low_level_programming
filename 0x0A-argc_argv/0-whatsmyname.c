@@ -9,11 +9,11 @@
 * Return: Always 0 (Success)
 */
 
-int main(argc, char *argv[])
+int main(int argc, char *argv[])
 {
 	while (argc--)
 	{
-		printf("%d\n", *argv++);
+		printf("%s\n", *argv++);
 	}
 	return (0);
 }
