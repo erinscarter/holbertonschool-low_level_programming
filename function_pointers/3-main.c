@@ -30,4 +30,4 @@ int main(int argc, char *argv[])
 	c = fun(a, b);
 	printf("%d\n", c);
 	return (0);
-
+}
